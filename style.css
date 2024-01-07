@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: bisque;
+    height: 90px;
+}
+
+nav {
+    color: black;
+    background-color: lightblue;
+    height: 80px;
+    border: 3px solid;
+    
+}
+
+.logo-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 13px;
+    padding: 6px;
+    border: 5px solid;
+}
+.signup-log {
+    display:flex;
+    flex-direction: row;
+    margin-right: 13px;
+}
+
+ul {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
