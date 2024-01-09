@@ -63,9 +63,72 @@ ul {
 }
 
 .home {
-    
+   
+}
+
+main {
+    background-color: rgb(101, 143, 180);
+    height: 600px;
     
 }
+
+article {
+    margin-left: 5px;
+}
+
+.main-search-bar {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .main-search-bar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .main-search-bar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .main-search-bar a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .main-search-bar input[type=text] {
+    float: left;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+  .main-search-bar button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: greenyellow;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .main-search-bar button:hover {
+    background: #ccc;
+  }
+  
 
 /* unvisited link */
 a:link {
