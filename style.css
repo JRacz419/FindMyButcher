@@ -4,15 +4,15 @@ header {
     justify-content: space-between;
     align-items: center;
     color: black;
-    background-color: bisque;
+    background-color: lightgray;
     height: 90px;
 }
 
 nav {
     color: black;
-    background-color: lightblue;
+    background-color: lightgray;
     height: 80px;
-    border: 3px solid;
+    border: 1.5px solid;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -31,16 +31,25 @@ nav {
     align-items: center;
     margin-left: 13px;
     padding: 6px;
-    border: 5px solid;
+    
+}
+
+.home {
+    font-size: 
 }
 .signup-log {
     display:flex;
     flex-direction: row;
     margin-right: 13px;
-    border: 3px solid black;
+   
+}
+
+.log-in {
+    font-size: 16px;
 }
 
 ul {
+    list-style-type: none;
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -50,10 +59,56 @@ ul {
 
 .signup {
     margin-top: 2px;
-    border: 2px solid black;
+    
 }
 
 .home {
-    border: 2px solid black;
+    
     
 }
+
+/* unvisited link */
+a:link {
+    color: black;
+  }
+ 
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: blue;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: 
+  }
+  
+  a:active {
+    text-decoration: 
+  }
+
+  button {
+    transition-duration: 0.4s;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: blue;
+    color: white;
+  }
