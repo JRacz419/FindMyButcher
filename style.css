@@ -4,13 +4,13 @@ header {
     justify-content: space-between;
     align-items: center;
     color: black;
-    background-color: lightgray;
+    background-color:black;
     height: 90px;
 }
 
 nav {
     color: black;
-    background-color: lightgray;
+    background-color: black;
     height: 80px;
     border: 1.5px solid;
     display: flex;
@@ -23,6 +23,11 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-color: black;
+}
+
+.home {
+  color: white;
 }
 
 .logo-div {
@@ -32,6 +37,11 @@ nav {
     margin-left: 13px;
     padding: 6px;
     
+}
+
+.main-img-container {
+  border: white;
+  height: 600px;
 }
 
 
@@ -65,17 +75,20 @@ article {
   height: 600px;
   display: flex;
   justify-content: center;
+  display: flex;
+  flex-direction: row;
   
 }
 
 h1 {
-  font-size: 60px;
-  border: 2px solid black;
+  font-size: 70px;
+  border: 2px solid white;
   text-align: center;
-  flex-flow: wrap;
-  width: 450px;
-  height: 140px;
+  height:160px;
   color: white;
+  margin-top: 100px;
+  padding: 4px;
+
 }
 
 .red-meat-text {
@@ -102,21 +115,21 @@ article {
 
 /* unvisited link */
 a:link {
-    color: black;
+    color: white;
   }
  
   a:visited {
-    color: black;
+    color: white;
   }
   
   /* mouse over link */
   a:hover {
-    color: blue;
+    color: red;
   }
   
   /* selected link */
   a:active {
-    color: blue;
+    color: red;
   }
 
   a:link {
@@ -139,9 +152,12 @@ a:link {
     transition-duration: 0.4s;
     border-radius: 4px;
     font-size: 16px;
+    background-color: red;
+    color: white;
+    border: solid white .5px;
   }
   
   button:hover {
-    background-color: blue;
-    color: white;
+   background-color: darkred;
+   color: white;
   }
