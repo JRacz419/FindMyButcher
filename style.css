@@ -36,6 +36,7 @@ nav {
     align-items: center;
     margin-left: 40px;
     padding: 6px;
+    margin-top: 6px;
     
 }
 
@@ -65,10 +66,39 @@ ul {
     margin-right: 15px;
 }
 
-.signup {
-    margin-top: 2px;
-    
+.search-bar {
+  width: 400px;
+  height:65px;
+  background: lightgray;
+  display:flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
 }
+
+.search-bar input {
+  background:transparent;
+  flex: 1;
+  border: 0;
+  outline:none;
+  padding: 24px 20px;
+  font-size: 20px;
+}
+
+
+.search-bar button img {
+  width:20px;
+}
+
+.search-bar button {
+  border: 0;
+  border-radius:  50%;
+  width: 36px;
+  height: 36px;
+  background:lightgray;
+  cursor: pointer;
+}
+
 
 article {
   background-color: black;
@@ -80,8 +110,21 @@ article {
   
 }
 
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-bar {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+ 
+  height:20px;
+}
+
 h1 {
-  font-size: 70px;
+  font-size: 75px;
   
   text-align: center;
   height:160px;
@@ -148,7 +191,7 @@ a:link {
     text-decoration: 
   }
 
-  button {
+  .sign-up-button {
     transition-duration: 0.4s;
     border-radius: 4px;
     font-size: 16px;
@@ -158,6 +201,6 @@ a:link {
   }
   
   button:hover {
-   background-color: rgb(133, 16, 16);
+   background-color:
    color: white;
   }

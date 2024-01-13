@@ -10,7 +10,7 @@
     <header>
         <div class="logo-div">
             <img src="images/mainlogo.png" alt="company name logo"
-            height="60px" width="350px">
+            height="80px" width="440px">
         </div>
         <nav>
             <ul class="navlist">
@@ -55,7 +55,7 @@
             <ul>
                 <li>
                     <div class="signup">
-                       <a href="#"><button>Sign Up</button></a> 
+                       <a href="#"><button class="sign-up-button">Sign Up</button></a> 
                     </div>
                 </li>
                 <li>
@@ -68,13 +68,19 @@
     </header>
     <main>
         <article>
-            <h1>
-               Discover Local<br><span class="red-meat-text">BUTCHERS</span>
-            </h1>
-            <div class="main-img-container">
-               <img src="images/butchersmeat.jpg" alt="butcher image"
-                height="600px"> 
+            <div class="search-container">
+                <h1>
+                    Discover Local<br><span class="red-meat-text">BUTCHERS</span>
+                </h1>
+                <form action="" class="search-bar">
+                    <input type="text" placeholder="City,State" name="q">
+                    <button type="submit"> <img src="images/searchicon.png"></button>
+                </form>
             </div>
+            <div class="main-img-container">
+                <img src="images/butchersmeat.jpg" alt="butcher image"
+                height="600px"> 
+            </div>      
         </article>
     </main>
     <script src="script.js"></script>
