@@ -34,7 +34,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 13px;
+    margin-left: 40px;
     padding: 6px;
     
 }
@@ -82,11 +82,11 @@ article {
 
 h1 {
   font-size: 70px;
-  border: 2px solid white;
+  
   text-align: center;
   height:160px;
   color: white;
-  margin-top: 100px;
+  margin-top: 80px;
   padding: 4px;
 
 }
@@ -109,7 +109,7 @@ main {
 
 
 article {
-  margin-left: 5px;
+  
   
 }
 
@@ -154,10 +154,10 @@ a:link {
     font-size: 16px;
     background-color: red;
     color: white;
-    border: solid white .5px;
+    
   }
   
   button:hover {
-   background-color: darkred;
+   background-color: rgb(133, 16, 16);
    color: white;
   }
