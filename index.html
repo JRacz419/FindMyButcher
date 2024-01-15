@@ -67,21 +67,36 @@
         </div>
     </header>
     <main>
-        <article>
+        <section class="hero-container">
             <div class="search-container">
                 <h1>
                     Discover Local<br><span class="red-meat-text">BUTCHERS</span>
                 </h1>
-                <form action="" class="search-bar">
-                    <input type="text" placeholder="City,State" name="q">
-                    <button type="submit"> <img src="images/searchicon.png"></button>
+                <form action="https://www.google.com/search" methods="get" class="search-bar">
+                <input type="text" placeholder="City,State" name="q">
+                <button type="submit"> <img src="images/searchicon.png"></button>
                 </form>
             </div>
-            <div class="main-img-container">
-                <img src="images/butchersmeat.jpg" alt="butcher image"
-                height="600px"> 
-            </div>      
-        </article>
+            <img src="images/butchersmeat.jpg">
+        </section>
+        <section class="motivational-pitch-container">
+            <article class="motivational-pitch">
+                <h2>
+                    Get <span class="red-meat-text">INSPIRED</span>
+                </h2>
+                <section class="card-container">
+                    <div class="card-one">
+                        <img src="images/cowdiagram.jpg" alt="diagram of different types of cuts on a cow" style="width:100%">
+                            <div class="card-one-title">
+                                <a href="#">6 Reasons To Start Grilling</a>
+                            </div>
+                    </div>
+                </section>
+            </article>
+            <aside class="aside-ad">
+               Display Ad Here 
+            </aside>
+        </section>
     </main>
     <script src="script.js"></script>
 </body>
