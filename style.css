@@ -9,6 +9,10 @@ header {
     
 }
 
+main {
+  background-color: black;
+}
+
 nav {
     color:black;
     background-color: black;
@@ -113,6 +117,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+ margin-right: 200px;
 }
 
 .search-bar {
@@ -132,6 +137,12 @@ h1 {
 
 .red-meat-text {
   color: red;
+  font-size:75px;
+}
+
+.span-red-butcher {
+  font-size: 30px;
+  color:red;
 }
 
 .article-container {
@@ -146,9 +157,10 @@ h1 {
   flex-direction: column;
   align-items: center;
   height:900px;
- border: 2px solid blue;
+ 
   width: 85%;
   margin-top: 6px;
+  background-color: black;
 }
 
 .card-container {
@@ -159,23 +171,23 @@ h1 {
   width: 100%;
   margin-bottom: 40px;
   gap: 22px;
-  border: 2px solid red;
+  
 }
 
-.card-one-title {
+.card-title {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   padding: 2px 16px;
   font-weight: bold;
-  height: 90px;
-
+  height: 75px;
+  margin-top: 12px;
 }
 
 h3 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 24px;
   padding: 2px 16px;
   text-shadow: .5px .5px lightgrey;
   margin-top: 2px;
@@ -183,15 +195,14 @@ h3 {
 
 .find-butcher-info {
   font-size: 18px;
- 
+  font-family: sans-serif;
   text-align: center;
   padding:5px;
-  margin-top: 6px;
+  margin-top: 20px;
+  height: 146px;
 }
 
-.card-one:hover {
-  box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);
-}
+
 
 
 
@@ -223,16 +234,20 @@ h3 {
   text-decoration: none;
 }
 
+.card-one:hover {
+  box-shadow: 0 1px 6px 6px rgb(99, 99, 99);
+}
+
 .card-two:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 6px 6px 0 rgb(99, 99, 99);
 }
 
 .card-three:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 6px 6px 0 rgb(99, 99, 99);
 }
 
 .card-four:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 6px 6px 0 rgb(99, 99, 99);
 }
 
 .card-one,
@@ -250,27 +265,36 @@ h3 {
 }
 
 .butcher {
-  border-radius: 3%;
- 
+  border-radius: 5%;
+  margin-top: 10px;
+}
+
+.butcher-img-container {
+  display: flex;
+  justify-content: center;
+
 }
 
 h2{
   font-size: 75px;
   font-weight: bold;
-  text-shadow: 2px 2px lightgray;
-  border: 2px solid green;
+  
   height:90px;
-  margin-top: 12px;
+  margin-top: 26px;
   text-align: center;
   width: 500px;
+  color: white;
+  background-color: black;
 }
 
 .ad-container {
   border: 2px solid black;
   width: 200px;
-  margin-top: 6px;
+  height: 600px;
+  margin-top: 18px;
   margin-right: 6px;
   text-align: center;
+  background-color: white;
 }
 
 
@@ -321,6 +345,7 @@ a:link {
   .button-container {
     display:flex;
     justify-content: center;
+    margin-top: 30px;
   }
 
 .button-29 {
