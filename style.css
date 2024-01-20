@@ -13,8 +13,7 @@ header {
 }
 
 main {
-  
-  background-color: black
+  background-image: linear-gradient(to bottom, black, rgb(35, 35, 35));
 }
 
 footer {
@@ -27,10 +26,13 @@ footer {
 }
 
 .footer-logo-container {
- 
-  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   margin-left: 20px;
   padding: 6px;
+  border: 2px solid #5468ff;
+  height: 90%;
 }
 
 .footer-navlist {
@@ -68,8 +70,9 @@ footer {
   border-width: 2px;
   border-style: solid;
   margin-left: 20px;
-  align-self: center;
+  
   border-image: linear-gradient(to right, #5468ff, #5adaff) 1;
+  
 }
 
 .home {
@@ -174,11 +177,14 @@ h1 {
   color: white;
   margin-top: 80px;
   padding: 10px;
-  border-width: 8px;
-  border-style: solid;
-  border-image: linear-gradient(to right, #5468ff, #5adaff) 1;
+  border: 8px solid transparent;
+  background: linear-gradient(black, black) padding-box,
+    linear-gradient(to right, #5468ff, #5adaff) border-box;
   border-radius: 14%;
 }
+
+
+
 
 
 .red-meat-text {
@@ -203,7 +209,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   height:1000px;
-  background-color: black;
+  background-color: transparent;
   width: 85%;
   margin-top: 6px;
 
@@ -319,7 +325,9 @@ h3 {
 h2{
   font-size: 75px;
   font-weight: bold;
-  border: 8px solid #5468ff;
+  border: 8px solid transparent;
+  background: linear-gradient(black, black) padding-box,
+    linear-gradient(to right, #5468ff, #5adaff) border-box;
   border-radius: 14%;
   height:90px;
   margin-top: 26px;
