@@ -35,32 +35,48 @@ footer {
 }
 
 .footer-navlist {
-  margin-left: 20px;
+  margin-left: 16px;
   align-self: center;
+  width: 100%;
+}
+
+.footer-login {
+  
 }
 
 .footer-signup-login-container {
-  border: 2px solid #5468ff;
+  
   height: 35%;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 20px;
+}
+
+.copyright-container {
+  width: 48%;
+  border: 2px solid blue;
 }
 
 .copyright {
   color: white;
   border: 2px solid blue;
-  width: 50%;
 }
 
-.nav-signup-login-container {
+.nav-signup-login-main-container {
   border: 2px solid blue;
-  margin-left: 200px;
+  margin-left: 80px;
   height: 100%;
   width: 20%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+}
+
+.nav-signup-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid blue;
 }
 
 .signup-login-div {
@@ -76,9 +92,7 @@ footer {
   margin-bottom: 30px;
 }
 
-.footer-login {
-  align-items: center;
-}
+
 
 .nav-search-container {
   border-width: 2px;
