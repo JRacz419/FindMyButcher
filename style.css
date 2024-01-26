@@ -38,46 +38,12 @@ footer {
   margin-left: 16px;
   align-self: center;
   width: 100%;
-}
-
-.footer-login {
-  
-}
-
-.footer-signup-login-container {
-  
-  height: 35%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.copyright-container {
-  width: 48%;
-  border: 2px solid blue;
-}
-
-.copyright {
-  color: white;
-  border: 2px solid blue;
-}
-
-.nav-signup-login-main-container {
-  border: 2px solid blue;
-  margin-left: 80px;
   height: 100%;
-  width: 20%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
 }
 
-.nav-signup-login {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: 2px solid blue;
-}
+
+
+
 
 .signup-login-div {
   border: 2px solid #5468ff;
@@ -91,8 +57,6 @@ footer {
 .signup-container {
   margin-bottom: 30px;
 }
-
-
 
 .nav-search-container {
   border-width: 2px;
@@ -186,7 +150,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
- margin-right: 200px;
+  margin-right: 200px;
 }
 
 .search-bar {
@@ -259,7 +223,6 @@ h3 {
   padding: 2px 16px;
   text-shadow: .5px .5px lightgrey;
   margin-top: 2px;
-  
   border-radius: 5px;
   background-color: rgb(246, 244, 244);
 }
@@ -362,12 +325,23 @@ h2{
   border: 2px solid black;
   width: 200px;
   height: 600px;
-  margin-top: 18px;
+  margin-top: 40px;
   margin-right: 6px;
   text-align: center;
   background-color: white;
 }
 
+.footer-login-signup-container {
+  border: 2px solid white;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 450px;
+  align-self: center;
+}
+
+.footer-login-container {
+  margin-top: ;
+}
 
 /* unvisited link */
 a:link {
